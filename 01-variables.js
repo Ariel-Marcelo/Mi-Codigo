@@ -1,3 +1,4 @@
+
 /*
   Nombre: Ariel Pillajo
   Fecha: 17-10-2019
@@ -30,4 +31,3 @@ let sueldo = 0;
 sueldo = 8;
 // edad = 30 en Pyton no necesita punto y coma
 // val edad: Integer = 30; en kotlin Inmutable
-// var edad: Integer = 30; -> en kotlin Mutable
