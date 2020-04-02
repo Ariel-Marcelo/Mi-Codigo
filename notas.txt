@@ -1,0 +1,13 @@
+API es un interfaz para que se comuniquen distintos programa intercambiando información entre ellos
+bajo ciertos estándares 
+la información se puede enviar en formato json , HTML o Texto Plano
+API tipo Rest define los permisos para que otras aplicaciones puedan acceder a la tuya por lo cual existen 
+API pridas y públicas
+Rest es una arquitectura para las APIS 
+.Net es una plataforma de desarrollo en donde se puede desarrollar software con la ayuda de APIS y bibliotecas
+Net Core es una de las implementaciones de .Net con un codigo abierto, utilizando paquetes NuGet que permite 
+actualizar componentes independientemente asi que es mas fácil de usar que Framework que actualiza todo y 
+que a veces es necesario tener licencia para acceder a ciertas herramientas 
+NetCore usa una linea de comandos para cada sistema operativo en el que se este trabajando
+CIL es un lenguaje ensamblador orientado a objetos, y está basado en pilas. Es ejecutado por una máquina 
+virtual. y los lenguajes de Net Framework compilan CIL
