@@ -2,10 +2,14 @@
 // finalmente mono nombre.exe para ejecutar
 # include <stdio.h> // contiene informacion que el compilador utiliza para llamar a otras bibliotecas 
                     // y es la cabezera estándar para poder manejar datos de  entrada y salida 
+# include <math.h> // libreria matematica de C 
 #define Pi 3,14 // esta es una macro una variable cuyo valor nunca cambiara
-int y = 5; // variable global
+int  b , y = 5; // variable global
 float a = 45;
 int main(){//función principal
+
+    // podemos escribir las instrucciones en la misma línea
+    // si semparamos por ; 
 
     printf("Hola Mundo\n");
     printf("El valor de  y: %i\n", y );
@@ -24,5 +28,11 @@ int main(){//función principal
     
     y += 10; // y = y + 10;
 
+
+    // gracias a la libreria matematica podemos usar 
+    
+    y = sqrt(y); // raiz cuadrada de y 
+    b = pow(y,2); // elevamos  al cuadrado y lo guardamos en b
+    puts("Esta función es un print que solo imprime si esta dentro de  codicionales");
     return 0;
 }

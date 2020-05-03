@@ -1,0 +1,63 @@
+
+
+Cuando realizamos una consulta a un servidor de GraphQL, el entorno de ejecución valida que los campos que solicitamos existan, que la consulta sea válida, que los objetos que solicitamos tengan indicados los sub campos que requerimos, etc.
+
+Para poder hacer esto, es necesario que definamos qué objetos y campos pueden consultarse de nuestro servicio de GraphQL, sin esta definición, ni el cliente ni el entorno de ejecución podrían validar o indicarnos qué podemos y qué no podemos solicitar de un servicio web de GraphQL.
+
+Sin embargo, recordemos que GraphQL es una forma de crear servicios web y consultarlos que no asume ningún lenguaje de programación, uno puede implementar un servidor de GraphQL en el lenguaje que quiera, Ruby, JavaScript, Python, PHP, etc. Es por esto que para definir los datos que podemos consultar, las estructuras y sus tipos, GraphQL define su propio lenguaje de definción de tipos, el lenguaje de esquema de GraphQL o el GraphQL schema language.
+
+En esta definición encontramos, dos principales características del servicio web de GraphQL:
+
+    Qué operaciones de consulta y manipulación de datos podemos ejecutar
+    La estructura de los datos que podemos consultar y el sistema de tipado
+
+
+Sistema de tipado en GraphQL
+
+El bloque fundamental de el schema en GraphQL son los tipos. A través del sistema de tipado de GraphQL podemos definir las estructuras de nuestros datos y el tipo de cada propiedad de la que se compone nuestro servicio web.
+
+En general, podemos decir que existen dos elementos importantes en el sistema de tipado, los tipos objetos y los tipos escalares, los primeros definen las estructuras de nuestro servicio web, en CódigoFacilito por ejemplo podríamos tener el tipo objeto Curso, Video, Usuario y en la definición de cada una de estas estructuras colocaríamos las propiedades que las componen, por ejemplo
+
+type Course{
+  title: String
+  id: ID!
+  user: User!
+}
+
+Las estructuras objeto están compuestas por sub campos que pueden ser de dos tipos, otras estructuras objeto para especificar relaciones entre nuestros datos y los tipos escalares.
+
+En este contexto, nos referimos a escalar, o scalar en inglés, para distinguir a las propiedades atómicas, es decir, la unidad indivisible. En GraphQL los tipos escalares no tienen sub campos, según la documentación podemos pensar en ellos como las hojas de nuestro esquema, los datos finales como pueden ser cadenas, números, booleanos, entre otros.
+
+Los tipos escalares vienen predefinidos en GraphQL, aunque podemos definir más, y son estos:
+
+Int: Un entero de 32 bits Float: Un valor decimal con punto flotante. value. String: Una secuencia de caracteres Boolean: Un valor que puede ser verdadero o falso ID: Un identificador único de la estructura
+
+Eventualmente, cualquier estructura que definamos en nuestro esquema, tienen que representarse con alguno de estos tipos escalares, en el caso del ejemplo anterior podemos ver que tenemos los tipos escalares title que es una cadena y id que es un identificador. El tipo User que es objeto, deberá tener sus propios tipos escalares.
+
+
+
+Definir tus estructuras y sus tipos escalares no es suficiente para realizar una consulta a GraphQL. Para iniciar debemos de definir dos tipos importantes en el schema, el tipo Query y el tipo Mutation.
+
+El primero, el tipo Query es donde definimos las operaciones de consulta que se pueden realizar a nuestro servicio web, por ejemplo, si quisiéramos poder consultar todos los cursos en nuestro ejemplo, necesitaríamos definir dicha operación en el tipo Query:
+
+type Query{
+   getCourses: [Course]
+}
+
+Aquí estoy iniciando la definición del tipo Query, más adelante veremos más detalles prácticos de la definición, por ahora solo es importante indicar que definimos una operación getCourses que retorna un arreglo de objetos con el tipo Course.
+
+Según la documentación de GraphQL, todos los esquemas de GraphQL deben tener un tipo Query, que en otras palabras significa que este tipo es obligatorio en tu esquema.
+
+Si antes has trabajado con servicios web REST, debes de pensar en las operaciones enlistadas en el tipo Query como operaciones tipo GET, de consulta, que no deberían de alterar o manipular la información en el servicio web, solo leerla.
+
+Para operaciones que alteren la información de nuestro servicio web, tenemos el tipo Mutation, donde enlistamos precisamente estas operaciones, las de modificaciones, que pueden ser crear nuevos registros, actualizarlos, reordenarlos o eliminarlos.
+
+Fuera de la separación entre operaciones de consulta y operaciones de modificación, los tipos Mutation y Query son muy similares, por ejemplo, así definiríamos una operación en el tipo mutación:
+
+type Mutation{
+   addCourse(title: String)
+}
+
+Puedes notar que en el ejemplo de la operación de mutación, la operación además define un argumento que debe recibir, ten en cuenta que también las operaciones de consulta pueden recibir argumentos, veremos más detalles cuando cubramos el tópico de argumentos en el curso.
+
+Por ahora ya tienes una base de qué es el schema y qué debemos definir ahí. A continuación pasemos a la definición de nuestro primer esquema para pasar estos conceptos a la práctica.
