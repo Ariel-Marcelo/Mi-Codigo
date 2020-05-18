@@ -1,0 +1,11 @@
+public class Suma{
+  public static void main(String args[]){¨existen 2 tipos de datos primitivos (numeros,verdadero y falso) y de tipo objeto la palabra String hace referencia a un dato de tipo objeto ¨
+ 
+   int dato_1 = 5;  "vamos a usar instrucciones que definen una variable de tipo numerico int a las cuales le damos algunos valores¨
+   int dato_2 = 6;
+   int resultado = 0;
+
+   resultado = dato_1 + dato_2; "especificamos que se sumaran dos variables del mismo tipo int un entero asi que + se le toma como suma¨
+   System.out.println("el resultado de tu suma es: " + resultado); "como tenemos una variable de tipo texto y otra de un entero entonces + es un signo de concarenacion "
+ }
+}

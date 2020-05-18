@@ -1,0 +1,25 @@
+public class Practica{
+  public static void main(String args[]){
+ 
+   int num1 = 8;
+   int num2 = 6;
+   int instruccion = 4;
+   int resultado = 0;
+
+   if(instruccion == 1){ 
+    resultado = num1 + num2;
+    System.out.println("tu resultado es: " + resultado);
+  } else if(instruccion == 2){
+    resultado = num1 - num2;
+    System.out.println("tu resultado es: " + resultado);
+  } else if(instruccion == 3 ){
+    resultado = num1 * num2;
+    System.out.println("tu resultado es: " + resultado);
+  } else if(instruccion == 4 ){
+    resultado = num1 / num2;
+    System.out.println("tu resultado es: " + resultado);
+  } else {
+     System.out.println("la intruccion solicitada no esxiste");
+  }
+ }
+}

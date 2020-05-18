@@ -1,0 +1,20 @@
+import javax.swing.*; "llamamos a la libreria swing para crear interfaces graficas y el * indica que usaremos todos los elementos de la libreria swing para evitar importarlos uno por uno"
+
+public class Interfaz extends JFrame{ "la palabra extends importa clases al JDK en este caso la clase JFrame" 
+  private JLabel pantallazo; "hacemos uso de un elemento de la libreria swing llamado Jlabel que es una etiqueta que sirve para imprimir en pantalla en una interfaz grafica y sera de dominio privado, para enlazar clases deben ser de tipo publicas"
+
+  public Interfaz(){ "Hacemos uso de un contructor que lleva el mismo nombre de mi clase y despues especificaremos lo que va a construir"
+   setLayout(null); "poniendo el null evitamos que el metodo setLayout ubique donde quiera los elementos dentro de la interfaz;
+   pantallazo = new JLabel("Hola mundo"); inicializaremos al objeto etiqueta diciendole que imprima el mensajue en comillas 
+   pantallazo.setBounds(10,20,200,300); "si queremos que un metodo como setBounds afecte directamente a un objeto como es pantallazo lo separamos siempre por un punto, este metodo en pixeles nos permite determinar la posicion en x, y, largo, ancho de la etiqueta"  
+   add(pantallazo); "indicamos que todas las caracteristicas escritas con anterioridad seran guardadas en el objeto pantallazo "   
+          
+ }
+  
+  puclic sataic void main(String args[]){
+   Interfaz inter = new Interfaz(); "creamos un nuevo objeto llamado inter de tipo Interfaz el cual tiene el mismo nombre de la clase debido a que esta esta enlazada con JFrame y queremo que este objeto haga uso de esta clase"
+   inter.setBounds(0,0,400,300);
+   inter.setVisible(true); "con este metodo indicamos que nuestra interfaz sea visible"
+   inter.setLocationRelativeTo(null); "indicamos que queremos que se imprima en el centro de la pantalla"
+ }
+}
