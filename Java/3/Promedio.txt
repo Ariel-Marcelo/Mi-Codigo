@@ -1,0 +1,17 @@
+publi class Promedio{
+  public static void main(String args[]){ "String es un dato de tipo objeto para hacer cadenas de texto y es una clase que java nos ofrece"
+
+   int promedio_1 = 6;
+   int promedio_2 = 9;
+   int promedio_3 = 7;
+   int resultado  = 0;
+
+   resultado = (promedio_1 + promedio_2 + promedio_3) /  3;
+   
+   if(resultado >= 6){ "if se le considera una estructura de condición, ma no una instruccion por lo cual es necesario el uso de parentesis"
+    System.out.println("APROBADO su nota es: " + resultado);
+  } else {
+    System.out.println("REPROBADO su nota es: " + resultado);
+  }
+ }
+}
