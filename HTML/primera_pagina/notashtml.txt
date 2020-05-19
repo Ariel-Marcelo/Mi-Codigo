@@ -1,0 +1,52 @@
+para tener control de como se ve nuestra página se va usar  CSS definiendo las propiedades de un elemento
+para tener un buen posicionamiento web es importante saber usar las etiquetas a las cuales el navegador web
+va a leer y etiquetas como article, no le da mucha relevancia, así que definimos con que queremos que
+se relacione nuestro sitio web
+es importante tener todos los archivos de la página en una sola carpeta, esto es porque si queremos 
+mudarnos a otra computadora o servidor hacemos uso de las carpetas relativas donde el código código 
+principal llama desde su posición en la que se ejecuta por lo tanto no es necesario cambiar ni una sola
+linea de codigo ./ para partir desde alli y ../ para partir desde la carpeta que contiene al código
+
+Existen 4 formas de representar colores 
+
+rgb
+
+(rojo, verde , azul , opacidad) cada uno se define con valores de 0 al 255 
+y si se trata de la opacidad  esta  solo esta disponible al definirse como rgba
+
+nombres (144 nobres registrados mas o menos)
+
+hexadecimales se representan los colores con números hexadecimales que se van a ir tratando
+
+hsl-hsla 
+
+(matiz 0 - 360 , intensidad del colo 0 - 100% , oscuridad 0 - 100%)
+
+
+Selectores 
+
+Sirven para asignar propiedades a un elemento o a un conjunto de elementos de tal manera que si modificamos 
+el elemento no tendremos que tambien volver a modificar sus propiedades
+
+Tipos de Selectores
+
+etiqueta
+clase
+ID 
+Universales 
+Atributo
+
+los selectores tienen modificadores que se pueden combinar entre si para dar tecnicas de selección 
+mucho mas complejas
+
+Sistema de grilla 
+
+los sistemas de grilla nos ayudan a posicionar mejor nuestros elementos dependiendo de cuanto espacio en 
+pantalla se disponible haciendo uso segun me parece... código públicado en internet que ayudan a posicionar
+a los elementos ese codigo es mas bien un css me parece
+
+las etiquetas de texto como h1 indican el grado de importancia de lo que contienen donde 1 es el mayor
+grado de importancia y así hasta el 7
+
+La Foca es una herramienta de haking etico
+
