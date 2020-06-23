@@ -21,8 +21,10 @@ public class Ecuacion {
 
     @Override
     public String toString() {
-        return "Sea n = " + n + ", tus respuesta es: " + resolverEcuacion() +"\n";
+        return "Sea n = " + n +" tu resultado es: " + resolverEcuacion();
     }
+    
+  
     
     public float resolverEcuacion()
     { 
@@ -43,17 +45,14 @@ public class Ecuacion {
                 float a,c;
                 c = indice2;
                 a = ifac*c;
-                ifac = a;     
-
+                ifac = a;    
             }
             float a;
             a = resultado + (i/(ifac)) ;
             resultado = a;
             i--;
             ifac=1;
-        }
-        
-        
+        }   
         return resultado + 2;
     }
 }

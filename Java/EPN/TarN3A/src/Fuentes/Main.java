@@ -1,14 +1,12 @@
 
 package Fuentes;
-
+import Interfaces.JFEcuacion;
 public class Main {
 
   
     public static void main(String[] args) {
-        
-        Ecuacion e = new Ecuacion("5");
-        System.out.print(e);
-
+        JFEcuacion jFeecuacion = new JFEcuacion();
+        jFeecuacion.setVisible(true);
     }
     
 }

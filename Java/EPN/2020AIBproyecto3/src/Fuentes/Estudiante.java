@@ -3,7 +3,7 @@ package Fuentes;
 public class Estudiante {
     private String nombre;
     private long cedula;
-    private float n1, n2, n3;
+    private float n1, n2, n3,n4 ;
     
     public Estudiante(){
     }
@@ -76,14 +76,14 @@ public class Estudiante {
     }
     public boolean aprueba()
     {
-        float  r = ((n1 + n2 + n3)/3);
+        float  r = n1 + n2 + n3;
         return r >= 24 && r <= 30;
     }
     
-    public boolean Entre0y10()
+    public boolean Entre0y10(float i)
     {
-        
-        return n3>=0 && n3 <= 10 && n1>=0 && n1<=10 && n2>=0 && n2<=10;
+        this.n4 = i;
+        return n4 >= 0 && n4 <= 10;
     }
     
     

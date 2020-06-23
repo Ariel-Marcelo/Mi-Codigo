@@ -5,6 +5,7 @@
  */
 package Interfaces;
 
+
 import Fuentes.Estudiante;
 import javax.swing.JOptionPane;
 /**
@@ -57,6 +58,39 @@ public class JFEstudiante extends javax.swing.JFrame {
         setTitle("Estudiante");
 
         jPanel1.setBorder(new javax.swing.border.MatteBorder(null));
+
+        jTFNota1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTFNota1ActionPerformed(evt);
+            }
+        });
+        jTFNota1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTFNota1KeyPressed(evt);
+            }
+        });
+
+        jTFNota2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTFNota2ActionPerformed(evt);
+            }
+        });
+        jTFNota2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTFNota2KeyPressed(evt);
+            }
+        });
+
+        jTFNota3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTFNota3ActionPerformed(evt);
+            }
+        });
+        jTFNota3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTFNota3KeyPressed(evt);
+            }
+        });
 
         jLabel3.setText("Nombre");
 
@@ -191,7 +225,7 @@ public class JFEstudiante extends javax.swing.JFrame {
     private void jBAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBAceptarActionPerformed
         estudiante.setNombre(this.jTFNombre.getText());
             estudiante.setCedula(Long.parseLong(this.jTFCedula.getText()));
-
+     /*
         try
         {
             estudiante.setN1(Float.parseFloat(this.jTFNota1.getText()));
@@ -209,6 +243,7 @@ public class JFEstudiante extends javax.swing.JFrame {
                         + " los numeros 1 y 10");
             }
         }
+  
         try
         {
             estudiante.setN2(Float.parseFloat(this.jTFNota2.getText()));
@@ -241,6 +276,7 @@ public class JFEstudiante extends javax.swing.JFrame {
                         + " los numeros 1 y 10");
             }
         }
+        */
         String salida = "";
         salida = estudiante.toString();
         if(estudiante.aprueba()){
@@ -267,6 +303,88 @@ public class JFEstudiante extends javax.swing.JFrame {
         System.exit(0);
         
     }//GEN-LAST:event_jBSalirActionPerformed
+
+    private void jTFNota1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTFNota1KeyPressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTFNota1KeyPressed
+
+    private void jTFNota2KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTFNota2KeyPressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTFNota2KeyPressed
+
+    private void jTFNota3KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTFNota3KeyPressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTFNota3KeyPressed
+
+    private void jTFNota1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFNota1ActionPerformed
+        try
+        {   
+            if(estudiante.Entre0y10(Float.parseFloat(this.jTFNota1.getText()))==false){
+                this.jTFNota1.setText("");
+                this.jTFNota1.requestFocus();
+                JOptionPane.showMessageDialog(null, "Su Nota 1 debe estar entre "
+                        + " los numeros 1 y 10");
+            }else{
+                estudiante.setN1(Float.parseFloat(this.jTFNota1.getText()));
+                this.jTFNota2.requestFocus();
+            }
+        }catch(NumberFormatException e)
+        {
+            JOptionPane.showMessageDialog(null, "Su Nota 1 no tiene  un valor "
+                                          + "operable");
+            this.jTFNota1.setText("");
+            this.jTFNota1.requestFocus();
+        }
+        
+    }//GEN-LAST:event_jTFNota1ActionPerformed
+
+    private void jTFNota2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFNota2ActionPerformed
+        try
+        {
+            if(estudiante.Entre0y10(Float.parseFloat(this.jTFNota2.getText()))==false){
+                
+                this.jTFNota2.setText("");
+                this.jTFNota2.requestFocus();
+                JOptionPane.showMessageDialog(null, "Su Nota 2 debe estar entre "
+                        + " los numeros 1 y 10");
+            }else{
+                estudiante.setN2(Float.parseFloat(this.jTFNota2.getText()));
+                this.jTFNota3.requestFocus();
+            }
+      
+        }catch(NumberFormatException e)
+        {
+            JOptionPane.showMessageDialog(null, "Error en Nota 2 es un valor no "
+                                         + " Operable");
+            this.jTFNota2.setText("");
+            this.jTFNota2.requestFocus();
+
+        }
+    }//GEN-LAST:event_jTFNota2ActionPerformed
+
+    private void jTFNota3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFNota3ActionPerformed
+        try
+        {
+            
+            if(estudiante.Entre0y10(Float.parseFloat(this.jTFNota3.getText()))==false){
+                this.jTFNota3.setText("");
+                this.jTFNota3.requestFocus();
+                JOptionPane.showMessageDialog(null, "Su Nota 3 debe estar entre "
+                        + " los numeros 1 y 10");
+            }else{
+                estudiante.setN3(Float.parseFloat(this.jTFNota3.getText()));
+                this.jTFNota3.requestFocus();
+            
+            }
+        }catch(NumberFormatException e)
+        {
+            JOptionPane.showMessageDialog(null, "Error en Nota 3 es un valor no"
+                                              + " Operable");
+            this.jTFNota3.setText("");
+            this.jTFNota3.requestFocus();
+           
+        }
+    }//GEN-LAST:event_jTFNota3ActionPerformed
 
     /**
      * @param args the command line arguments
