@@ -6,6 +6,7 @@ public class Ecuacion {
     private float a;
     private float b;
     private float c;
+    private float d;
     
     public Ecuacion(){
     }
@@ -45,20 +46,20 @@ public class Ecuacion {
     public String toString() {
         if(b<0 && c<0)
         {
-            return "Tu Ecuacion es " + a + "x[2] " + b + "x " + c +" = 0 ";
+            return "Tu Ecuacion es " + a + "x[2] " + b + "x " + c +" = 0 " + d;
         }
         
         if(b<0)
         {
-            return "Tu Ecuacion es " + a + "x[2] " + b + "x + " + c +" = 0 ";
+            return "Tu Ecuacion es " + a + "x[2] " + b + "x + " + c +" = 0 "+ d;
             
         }if(c<0)
         {
-            return "Tu Ecuacion es " + a + "x[2] + " + b + "x " + c +" = 0 ";
+            return "Tu Ecuacion es " + a + "x[2] + " + b + "x " + c +" = 0 "+ d;
             
         }else
         {
-            return "Tu Ecuacion es " + a + "x[2] + " + b + "x + " + c +" = 0 ";
+            return "Tu Ecuacion es " + a + "x[2] + " + b + "x + " + c +" = 0 "+ d;
         }
     }
     
@@ -76,7 +77,7 @@ public class Ecuacion {
             this.a = Float.parseFloat(tokens.nextToken());
             this.b = Float.parseFloat(tokens.nextToken());
             this.c = Float.parseFloat(tokens.nextToken());
-            
+
         }
         catch(NumberFormatException e) // Comprueba si se ingreso un numero y si no el error se captura en e y ejecuta el catch
         {

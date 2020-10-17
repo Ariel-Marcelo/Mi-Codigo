@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="jTabbedPane4" min="-2" pref="375" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="400" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jTabbedPane4" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTAListaProfesores">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lista de Profesores"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane4">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Profesor Contratado">
+                <Property name="tabTitle" type="java.lang.String" value="Profesor Contratado"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jBContratado" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLNombreC" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLFechaNC" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLTituloC" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLFechaIngresoC" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLFechaSalida" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLSalrioFinal" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jTFFechaIngresoC" max="32767" attributes="0"/>
+                                          <Component id="jTFFechaSalida" max="32767" attributes="0"/>
+                                          <Component id="jTFSalrioFinal" max="32767" attributes="0"/>
+                                          <Component id="jTFNombreC" min="-2" pref="161" max="-2" attributes="0"/>
+                                          <Component id="jTFFechaNC" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTFTituloC" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLNombreC" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTFNombreC" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLFechaNC" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTFFechaNC" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLTituloC" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTFTituloC" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLFechaIngresoC" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTFFechaIngresoC" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLFechaSalida" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTFFechaSalida" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLSalrioFinal" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTFSalrioFinal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jBContratado" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="10" max="32767" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLNombreC">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nombre y Apellido:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLFechaNC">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fecha de Nacimiento:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFNombreC">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFFechaNC">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLTituloC">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Titulo del Profesor:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFTituloC">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLFechaIngresoC">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fecha Ingreso dd/mm/aaaa:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFFechaIngresoC">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLFechaSalida">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fecha Salida dd/mm/aaaa:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFFechaSalida">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLSalrioFinal">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Salario Final:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFSalrioFinal">
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTAProfesorIngresadoC">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jBContratado">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Aceptar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBContratadoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Profesor Ingresado:"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Profesor titular">
+                <Property name="tabTitle" type="java.lang.String" value="Profesor titular"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLPagoM" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLFechaNT" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLNombreT" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLTitulT" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLFechaIngresoT" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLPagoQ" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jTFNombreT" max="32767" attributes="0"/>
+                                  <Component id="jTFFechaNT" max="32767" attributes="0"/>
+                                  <Component id="jTFTituloT" max="32767" attributes="0"/>
+                                  <Component id="jTFFechaIngresoT" max="32767" attributes="0"/>
+                                  <Component id="jTFPagoQ" max="32767" attributes="0"/>
+                                  <Component id="jTFPagoM" pref="160" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jBProfesorTitular" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane3" min="-2" pref="336" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="24" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLNombreT" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTFNombreT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLFechaNT" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTFFechaNT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLTitulT" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTFTituloT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLFechaIngresoT" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTFFechaIngresoT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLPagoQ" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTFPagoQ" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLPagoM" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTFPagoM" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="11" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jBProfesorTitular" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLNombreT">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nombre y Apellido:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLFechaNT">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fecha de Nacimiento:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLTitulT">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Titulo del Profesor:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLFechaIngresoT">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fecha Ingreso dd/mm/aaaa:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLPagoQ">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pago Quincena:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLPagoM">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pago Mensual:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFNombreT">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFFechaNT">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFTituloT">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFFechaIngresoT">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTFFechaIngresoTActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFPagoQ">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFPagoM">
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTAProfesorIngresadoT">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jBProfesorTitular">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Aceptar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBProfesorTitularActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Profesor Ingresado:"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
