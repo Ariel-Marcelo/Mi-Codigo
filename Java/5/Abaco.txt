@@ -1,4 +1,4 @@
-import  java.util.Scanner; "estamos dando la instruccion de importar una libreria de java llamada Scanner el cual es un codigo ya estableccido que facilitara ciertas acciones  "
+import  java.util.Scanner; "estamos dando la instruccion de importar una clase de java llamada Scanner el cual es un codigo ya estableccido que facilitara ciertas acciones  "
 
 public class Abaco{
   public string void main(String args[]){
@@ -7,7 +7,7 @@ public class Abaco{
    String nombre = "";                      "recordar que String escribe cadenas de caracteres y al ser una clase va en mayuscula"
    int valor1 = 0, valor2 = 0, resultado = 0;
 
-   System.out.printl("¿Cuál es tu nombre?");
+   System.out.printl("ï¿½Cuï¿½l es tu nombre?");
    nombre = pi.nextLine(); "esta linea indica que se va a guardar en la variable nombre que definimos como una cadena de texto lo que este en la varible pi que va a quedar vacia despues de pasar el dato a nombre  recordemos que era la que va a reccojer un dato del teclado el metodo next indica que el programa esta a espera de que se escriba un dato y presione un enter seguido por la palabra Line indicando que los datos seran de tipo texto"  
  
    System.out.println("dame el primer valor: ");

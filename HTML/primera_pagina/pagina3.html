@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width-device-width initial-scale-1">    <!--es un manera de que la pagina se vea bien en moviles-->
+    <title> Venta de Comestibles </title>
+    <link rel="stylesheet" href="./css/properties.css">                                                         <!--hacemos un llamado a un archivo local-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"> <!--con https:// hacemos referencia a un archivo de internet que vamos a descargar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>                                                         <!--los divs no tienen significado semantico y nos permiten agrupar elementos a los que se aplicara propiedades en comun-->
+    <div class="row main-container middle-xs center-xs">       <!-- middle-xs se usa para centrar verticalmente -->             
+        <div class="col-md-8 col-sm-10 col-xs-10">             <!--en todas las pantallas grandes vamos a tomar de las 12 columnas en las cuales nuestro sistema de grilla descargado divide la pantalla asi: -->
+            <div class="card animated fadeInUp">
+                <header class= "main-header">                      <!-- y para las grandes 8  para mediana 10 y para pequeñas 10-->                                                     
+                    <nav class="main-nav">                         <!--nav ordena a los elementos en una fila segun se los ponga-->
+                        <a href="./Links/menu.html" class="nav-link"> Home </a> 
+                        <a href="" class="nav-link"> Food </a> 
+                    </nav>
+                </header>
+                <header style="text-align:center;"> 
+                    <img src="./imagenes/Vegetable.jpg" height="100" alt="Logo del Mercado">
+                    <h1 class="red-color Oswald title threeD ">La Hueca de La Bota</h1>
+                </header>
+                <div class="productos body">
+                    <div class="row center-xs">
+                        <div class="col-xs-10 col-sm-6 col-md-4 product animated fadeInDown deLay-3">
+                            <div class="card">
+                                <img src="./Productos/Producto-Naranja.jpg" alt = "Imagen Naranjas">
+                                <h3>Naranjas</h3>
+                                <p>0.35$</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-10 col-sm-6 col-md-4 product animated fadeInDown deLay-4">
+                            <div class="card">
+                            <img src="./Productos/Producto-Atún.jpg" alt = "Imagen Atún">
+                                <h3>Atún</h3>
+                                <p>1.35$</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-10 col-sm-6 col-md-4 product animated  fadeInDown deLay-5">
+                            <div class="card">
+                                <img src="./Productos/Producto-Avena.jpg" alt = "Imagen Avena">
+                                <h3>Avena</h3>
+                                <p>0.85$</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-10 col-sm-6 col-md-4 product  animated fadeInDown deLay-6">
+                            <div class="card">
+                                <img src="./Productos/Producto-Miel.jpg" alt = "Imagen Miel">
+                                <h3>Miel</h3>
+                                <p>4.00$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

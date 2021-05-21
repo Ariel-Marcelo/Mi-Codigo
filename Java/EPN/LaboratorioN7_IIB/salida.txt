@@ -1,0 +1,139 @@
+El factorial de 1es:1
+El factorial de 2es:2
+El factorial de 3es:6
+El factorial de 4es:24
+El factorial de 5es:120
+
+El factorial de 1es:1
+El factorial de 2es:2
+El factorial de 3es:6
+El factorial de 4es:24
+El factorial de 5es:120
+
+El factorial de 1es:1
+El factorial de 2es:2
+El factorial de 3es:6
+El factorial de 4es:24
+El factorial de 5es:120
+
+El factorial de 1es:1
+El factorial de 2es:2
+El factorial de 3es:6
+El factorial de 4es:24
+El factorial de 5es:120
+
+El factorial de 4es:24
+El factorial de 3es:6
+El factorial de 5es:120
+El factorial de 6es:720
+El factorial de 8es:40320
+El factorial de 2es:2
+El factorial de 3es:6
+
+El factorial de 4es:24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No se encontro un numero
+El factorial de 3es:6
+El factorial de 5es:120
+El factorial de 6es:720
+El factorial de 8es:40320
+El factorial de 2es:2
+El factorial de 3es:6
+
+No se encontro un numero
+El factorial de 3 es:6
+El factorial de 5 es:120
+El factorial de 6 es:720
+El factorial de 8 es:40320
+El factorial de 2 es:2
+El factorial de 3 es:6
+
+No se encontro un numero
+El factorial de 3 es:6
+El factorial de 5 es:120
+El factorial de 6 es:720
+El factorial de 8 es:40320
+El factorial de 2 es:2
+El factorial de 3 es:6
+
+No se encontro un numero
+
+No se encontro un numero
+
+No se encontro un numero
+
+No se encontro un numero
+
+No se encontro un numero
+
+No se encontro un numero
+
+El factorial de 4 es:24El factorial de 3 es:6El factorial de 5 es:120El factorial de 6 es:720El factorial de 8 es:40320El factorial de 2 es:2El factorial de 3 es:6
+
+El factorial de 4 es:24
+El factorial de 3 es:6
+El factorial de 5 es:120
+El factorial de 6 es:720
+El factorial de 8 es:40320
+El factorial de 2 es:2
+El factorial de 3 es:6
+
+
+El factorial de 4 es:24
+El factorial de 3 es:6
+El factorial de 5 es:120
+El factorial de 6 es:720
+El factorial de 8 es:40320
+El factorial de 2 es:2
+El factorial de 3 es:6
+
+
+El factorial de 4 es:24
+El factorial de 3 es:6
+El factorial de 5 es:120
+El factorial de 6 es:720
+El factorial de 8 es:40320
+El factorial de 2 es:2
+El factorial de 3 es:6
+
+
+El factorial de 4 es:24
+El factorial de 3 es:6
+El factorial de 5 es:120
+El factorial de 6 es:720
+El factorial de 8 es:40320
+El factorial de 2 es:2
+El factorial de 3 es:6
+
+
+El factorial de 4 es:24
+El factorial de 3 es:6
+El factorial de 5 es:120
+El factorial de 6 es:720
+El factorial de 8 es:40320
+El factorial de 2 es:2
+El factorial de 3 es:6
+
+

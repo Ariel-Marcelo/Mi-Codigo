@@ -1,0 +1,7 @@
+Empleado Por Horas
+Persona: nombre: Eduardo Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015
+numHoras=300.0
+costoHoras=3.4
+salario=1020.0

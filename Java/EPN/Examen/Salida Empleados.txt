@@ -1,0 +1,118 @@
+
+
+
+
+
+Empleado Asalariado
+Persona: 
+nombre: Ariel Pillajo
+fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020
+fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015
+Salario=300.0
+
+
+
+
+
+
+
+
+
+
+Empleado Asalariado
+Persona: 
+nombre: Ariel Pillajo
+fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020
+fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015
+Salario=300.0Empleado Asalariado
+Persona: 
+nombre: Ariel Pillajo
+fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020
+fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015
+Salario=300.0Empleado Asalariado
+Persona: 
+nombre: Ariel Pillajo
+fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020
+fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015
+Salario=300.0Empleado Asalariado
+Persona: 
+nombre: Juan Pillajo
+fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020
+fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015
+Salario=300.0Empleado Asalariado
+Persona: 
+nombre: Juan Pillajo
+fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020
+fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015
+Salario=300.0Empleado Asalariado
+Persona: 
+nombre: Juan Pillajo
+fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020
+fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015
+Salario=300.0Empleado AsalariadoPersona: nombre: Juan Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0Empleado AsalariadoPersona: nombre: Juan Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0Empleado AsalariadoPersona: nombre: Juan Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0Empleado AsalariadoPersona: nombre: Juan Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0
+Empleado AsalariadoPersona: nombre: Juan Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0
+Empleado AsalariadoPersona: nombre: Juan Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0
+Empleado AsalariadoPersona: nombre: Juan Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0
+Empleado AsalariadoPersona: nombre: Juan Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0
+Empleado AsalariadoPersona: nombre: Juan Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0
+Empleado AsalariadoPersona: nombre: Juan Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0
+Empleado AsalariadoPersona: nombre: Juan Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0
+Empleado AsalariadoPersona: nombre: Ariel Lucas fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0
+Empleado Por Horas
+Persona: nombre: Eduardo Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015
+numHoras=300.0
+costoHoras=3.4
+salario=1020.0
+Empleado Por Horas
+Persona: nombre: Eduardo Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015
+numHoras=300.0
+costoHoras=3.4
+salario=1020.0
+Empleado AsalariadoPersona: nombre: Juan Pillajo fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0
+Empleado AsalariadoPersona: nombre: Ariel Lucas fechaNacimiento: 
+Fecha: dia= 14, mes= 14, año= 2020fechaIngreso: 
+Fecha: dia= 20, mes= 10, año= 2015Salario=300.0
