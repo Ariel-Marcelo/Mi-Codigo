@@ -7,3 +7,4 @@ myStr ="Hello"
 print(dir(myStr)) # DIR muestra las operaciones posibles sobre ese tipo de dato. como upper 
 
 print(myStr.upper())
+# soy un comentario
