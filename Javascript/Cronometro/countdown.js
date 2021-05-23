@@ -31,4 +31,4 @@ const countdown = (deadline, elem, finalMessage) => {
     }, 1000 )   // el tiempo esta en milisegundos 1s = 1000 milisegundos
 }
 
-countdown('May 18 2020 19:35:20 GMT-0500', 'clock', 'El mundo ha terminado');       // clock es el ID del elemento ubicado en el archivo HTML y el ultimo es el mensaje final
+countdown('September 18 2021 19:35:20 GMT-0500', 'clock', 'El mundo ha terminado');       // clock es el ID del elemento ubicado en el archivo HTML y el ultimo es el mensaje final
